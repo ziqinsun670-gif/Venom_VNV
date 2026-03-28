@@ -1,0 +1,6 @@
+# Static TF configuration for Scout Mini robot
+transforms:
+  - parent_frame: base_link
+    child_frame: laser_link
+    translation: [0.0, 0.0, 0.36]
+    rotation: [0.0, 0.0, 0.0]

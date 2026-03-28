@@ -8,7 +8,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     pkg_share = get_package_share_directory('venom_robot_description')
-    config_file = os.path.join(pkg_share, 'config', 'static_tf.yaml')
+    config_file = os.path.join(pkg_share, 'config', 'scout_mini.yaml')
 
     with open(config_file, 'r') as f:
         config = yaml.safe_load(f)
